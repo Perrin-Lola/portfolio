@@ -59,6 +59,11 @@ body {
 	margin: 0;
 }
 
+section {
+	padding: 0 15%;
+}
+
+
 /* Render the `main` element consistently in IE. */
 main {
 	display: block;
@@ -433,7 +438,7 @@ textarea {
 .row {
 	width: 89%;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 0 0;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
@@ -455,7 +460,7 @@ textarea {
 	-webkit-flex: 1 1 0%;
 	-ms-flex: 1 1 0%;
 	flex: 1 1 0%;
-	padding: 0 20px;
+	padding: 0 0px;
 }
 
 .collapse > .column,
@@ -659,7 +664,7 @@ textarea {
 	}
 
 	.column {
-		padding: 0 16px;
+		padding: 0 0;
 	}
 
 	.medium-1 {
